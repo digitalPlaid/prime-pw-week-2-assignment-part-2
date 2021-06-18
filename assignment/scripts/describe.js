@@ -168,6 +168,8 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+// FIX - change const to let - let minAge = 21; the instructions say that we start with two variables. We have a variable in age,
+// but a constant in minAge
 const minAge = 21;
 
 if(minAge <= age) {
