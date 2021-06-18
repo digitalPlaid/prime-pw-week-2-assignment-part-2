@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// We declare a variable called name with the value 'Dane', and then check if that name is the same as 'Mary'. 
+// If the name had been Mary, we'd have said hi to mary, but instead we log to the console 'How do you do?'.
 // 
 //
 
@@ -45,8 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// initially we declare a variable named secret without assigning it a value. This results in secret holding the special js 
+// value: undefined.
+// we then define another variable named code and assign it the value 123. Next we check if the value of code is 123, and 
+// because the value is 123 we assign to secret the value 'super' and double the value of code. 
+// Next we check the value of code against 250, and because code isn't greater than 250 we move on to the next console log, 
+// printing 'super' to the console.
 // 
 //
 
@@ -70,7 +74,9 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
+// We first declare some variables and assign some reasonable values to them, isStudent is true, age is 34, and zip is 55407.
+// next we check if the zip is greater than 80000 and if isStudent is true. && statements only evaluate to true if both operands
+// are true, and because zip's value is not greater than 80000, 
 // 
 // 
 //
