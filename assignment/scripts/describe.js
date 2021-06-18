@@ -76,10 +76,13 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // We first declare some variables and assign some reasonable values to them, isStudent is true, age is 34, and zip is 55407.
 // next we check if the zip is greater than 80000 and if isStudent is true. && statements only evaluate to true if both operands
-// are true, and because zip's value is not greater than 80000, 
+// are true, and because zip's value is not greater than 80000, we skip over logging that we're a West Coast student, and move on
+// to other logical checks. Now we check against the or statement, because age is not less than 30 and isStudent is true, we have two 
+// falses, meaning an || operator will yield false, skipping the question about hobbies. Finally, because isStudent is true, the
+// check against true for the variable isStudent is true, and we log to the console 'Welcome to Prime!'. 
+// We skip the final else because only one if-else-if-else,etc. clause can be triggered, and it is the first condition to be true
+// that is triggered.
 // 
-// 
-//
 
 //CODE
 /*
